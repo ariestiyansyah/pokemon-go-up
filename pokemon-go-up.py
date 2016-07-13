@@ -7,4 +7,4 @@ try:
     else:
         print "Servers are down, go back to work"
 except:
-    print "Go! Cacth them all!
+    print "Go! Cacth them all!"
