@@ -4,9 +4,11 @@ from setuptools import find_packages
 
 setup(
     name='pokemon-go-up',
-    version='1.0',
+    version='1.3',
+    scripts=['pokemon-go-up.py'],
     packages=find_packages(exclude=['tests*']),
     license='MIT',
+    description='Python tools to check pokemon go server status',
     long_description='Python tools to check pokemon go server status',
     install_requires=['requests'],
     url='http://github.com/ariestiyansyah/pokemon-go-up',
